@@ -15,7 +15,7 @@ dynamodb = boto3.resource(
 )
 
 
-table = dynamodb.Table('tbl_aria_test_1')
+table = dynamodb.Table('tbl_test_1')
 
 table.put_item(
     Item={
